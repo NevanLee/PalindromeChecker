@@ -27,6 +27,7 @@ public boolean palindrome(String word)
     return false;
 }
 
+//from coding bat
 public String reverse(String str)
 {
   String sNew = "";
@@ -37,6 +38,7 @@ public String reverse(String str)
     return sNew;
 }
 
+//from coding bat
 public String onlyLetters(String sString){
   String s = "";
    for(int i = 0; i < sString.length(); i++)
@@ -49,7 +51,7 @@ public String onlyLetters(String sString){
   return s;
 }
 
-
+//from coding bat
 public String noSpaces(String sWord){
   String s = "";
   for(int i = 0; i < sWord.length(); i++)
@@ -61,7 +63,3 @@ public String noSpaces(String sWord){
   }
       return s;
 }
-  
-  
-
-
